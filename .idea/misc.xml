@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/add.xml" value="0.143" />
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1675" />
+        <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_fastfood_24.xml" value="0.143" />
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_accounts.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_info.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.11367753623188406" />
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_review.xml" value="0.19010416666666666" />
@@ -13,6 +16,7 @@
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/cardview.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/Evan Eric/AndroidStudioProjects/MyApplication/app/src/main/res/layout/listitem.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
