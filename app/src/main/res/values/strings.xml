@@ -4,4 +4,30 @@
     <string name="price">Price:</string>
     <string name="description">Description:</string>
     <string name="check">Check Details:</string>
+
+    <string name="grillchicken">Grill Chicken. This grilled chicken breast recipe is boneless skinless chicken breasts soaked in a flavorful garlic and herb marinade, then grilled to golden brown perfection. A staple recipe that’s perfect for summer entertaining!</string>
+
+
+    <string name="alfredo">The most creamiest and cheesiest pasta with a burst of flavours..!! </string>
+
+
+    <string name="sandwich">Chicken Corn Cheese Grill Sandwich . A nourishing combo of natural corn,
+    chicken, cheese, sauces, and flavours.</string>
+
+
+    <string name="orangevanilla">Vanilla Bean Crème Frappuccino® Blended Beverage. This rich and creamy blend of vanilla bean, milk and ice topped with
+    whipped cream takes va-va-vanilla flavor to another level.</string>
+
+
+    <string name="pizza">Jamaican BBQ, Buffalo Chicken, Tikka, Sweet Corns, Green Onions, Jalapenos ,BBQ Ranch Sauce And Mozzarella </string>
+
+
+    <string name="cake">Fresh molten lava cake with dark chocolate served with one scoop of vanilla icecream..!!</string>
+    <string name="tea">Right next to water, tea is hailed as the most consumed drink in the world. Every single drop of tea
+    comes from the same type of plant</string>
+    <string name="bubbletea">Bubble Tea is the name given to the wide variety of refreshing flavoured
+    fruit teas and milk teas served ice cold or piping hot with chewy
+    tapioca balls that you suck up through a big fat straw! .</string>
+    <string name="fries">Loaded fries can also be called French fry nachos, cheese fries, or poutine.. </string>
+
 </resources>
