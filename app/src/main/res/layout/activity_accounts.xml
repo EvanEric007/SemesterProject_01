@@ -13,8 +13,7 @@
         android:weightSum="16"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
-        android:background="#E7E7E7"
-        tools:ignore="MissingConstraints">
+        android:background="#E7E7E7">
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -29,7 +28,7 @@
             android:textStyle="bold"
             android:textSize="30sp"
             android:layout_gravity="center_vertical"
-            android:text="DRINK LIST"
+            android:text="MENU LIST"
             android:id="@+id/txtPrice"/>
         <FrameLayout
             android:layout_width="0dp"

@@ -1,9 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ContactUs">
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:background="@drawable/header_bg"
+        android:padding="12dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#0295ff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local Craft Foods"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"
+        android:text="About us"
+        android:textColor="#0295ff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/image" />
+    <TextView
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer is our first priority. We are here to bring a revolution in the world of food.Lets make the food online thing. You can get the food in just one click."
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Copyrights &#169; LocalCraftFood Pvt Ltd, Lahore"/>
+
+</LinearLayout>

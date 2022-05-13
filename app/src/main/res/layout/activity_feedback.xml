@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:background="@drawable/header_bg"
+        android:padding="12dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#0295ff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local Craft Foods"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Contact us"
+        android:textColor="#0295ff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:id="@+id/username" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:id="@+id/email" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:id="@+id/phone"
+         />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:hint="Feedback"
+        android:id="@+id/feedback"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#0295ff"
+        android:elevation="4dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Send"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginBottom="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/address"
+        android:drawableStart="@drawable/ic_baseline_location_on_24"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="4dp"
+        android:textSize="18sp"
+        android:text="Food Street Shop no 100, Lahore, Pakistan"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/no"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:drawablePadding="4dp"
+        android:text="042 000 000 00"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/mail"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="4dp"
+        android:text="localcraftfoods@hotmail.com"
+        android:textSize="18sp"/>
+</LinearLayout>
